@@ -1,0 +1,15 @@
+# Bundle meta (not part of the source)
+introduction.pdf
+.DS_Store
+
+# Local AI session notes
+.ai-prompts/
+
+# Secret safety net — real env files never get committed, examples do
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Parallel-work checkouts
+.worktrees/
